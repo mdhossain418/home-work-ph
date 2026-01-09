@@ -73,6 +73,7 @@ nav .menu a{
 }
 #banner{
     display: flex;
+    width: 100%;
     max-width: 1600px;
     height: 674px;
     background: url(./assets/hero-bg.png) no-repeat center center;
@@ -423,7 +424,7 @@ footer{
     width: 100%;
     max-width: 1600px;
     border: 1px solid;
-    background: #001931;
+    background-color: #001931;
 }
 footer .footer-container{
     max-width: 1360px;
