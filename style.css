@@ -417,6 +417,7 @@ nav .menu a{
     text-decoration: none;
     margin-left: 400px;
     margin-top: 16px;
+    cursor: pointer;
 }
 
 .button a{
