@@ -53,6 +53,166 @@ nav .menu li a:hover{
 nav .menu a{
     text-decoration: none;
 }
+.btn{
+    max-width: 164px;
+    display: flex;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;  
+    margin-left: 350px; 
+    gap: 10px;
+    background-color: #469165;
+    color: #ffff;
+    cursor: pointer;
+         
+}
+.btn:hover{
+    background-color: #2980b9;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+#banner{
+    display: flex;
+    max-width: 1600px;
+    height: 674px;
+    background: url(./assets/hero-bg.png) no-repeat center center;
+    justify-content:center;
+    align-items: center;
+    
+}
+#banner .banner-open{
+    text-align: center;
+    margin: 115px 120px 179px 120px; 
+
+}
+.open{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  background: #ffffff;
+  border-radius: 999px;
+  color: #2e8b57;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #2e8b57;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(46, 139, 87, 0.2);
+}
+#banner .banner-open ul li a{
+    max-width: 183px;
+    font-size: 16px;
+    font-weight: medium;
+    text-decoration: none;
+    color: #469165;
+    
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #2e8b57;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(46,139,87,.5); }
+  70% { box-shadow: 0 0 0 6px rgba(46,139,87,0); }
+  100% { box-shadow: 0 0 0 0 rgba(46,139,87,0); }
+}
+
+
+#banner .banner-content {
+    max-width: 770px;
+    text-align: center;
+    margin: 51px 295px 76px 295px;
+    
+
+}
+#banner  h2{
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    opacity: 90%;
+}
+#banner .banner-content h2.gr{
+    color: #469165;
+}
+#banner .banner-content p{
+    max-width: 1360px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 18px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+#banner  .banner-btn{
+    display: flex;
+    max-width: 465px;
+    justify-content: center;
+    gap: 16px;
+    margin-left: 447px;
+    margin-right: 447px;
+    padding: 16px;
+}
+#banner .banner-btn .main{
+    display: flex;
+    max-width: 251px;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;  
+    gap: 10px;
+    background-color: #469165;
+    color: #ffff;
+    cursor: pointer;
+}
+#banner .banner-btn span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+}
+#banner .banner-btn .play-icon{
+    
+    font-size: 14px;
+    background: rgba(255,255,255,0.15);
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+#banner .banner-btn .secend{
+    display: flex;
+    max-width: 198px;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;  
+    gap: 10px;
+    background: linear-gradient(180deg, #4b596710, #6b70761d);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: 1px;
+}
+#banner .banner-btn .main:hover, #banner .banner-btn .secend:hover{
+    background-color: #2980b9;
+    transition: 0.3s;
+    text-decoration: underline;
+}
 
 
 
